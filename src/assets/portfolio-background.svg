@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" fill="none">
+  <defs>
+    <radialGradient id="violet-glow" cx="0" cy="0" r="1" gradientTransform="matrix(550 460 -510 610 1270 130)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7458FF" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#7458FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blue-glow" cx="0" cy="0" r="1" gradientTransform="matrix(450 370 -430 520 250 880)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#328DFF" stop-opacity=".1"/>
+      <stop offset="1" stop-color="#328DFF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="72" height="72" patternUnits="userSpaceOnUse">
+      <path d="M72 0H0v72" stroke="#A7A5FF" stroke-opacity=".035"/>
+    </pattern>
+    <linearGradient id="orbit" x1="220" x2="1400" y1="160" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B78FF" stop-opacity="0"/>
+      <stop offset=".48" stop-color="#8B78FF" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#5DBBFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#violet-glow)"/>
+  <rect width="1600" height="1000" fill="url(#blue-glow)"/>
+  <rect width="1600" height="1000" fill="url(#grid)"/>
+  <path d="M-100 745C230 390 470 340 790 500s525 172 930-220" stroke="url(#orbit)" stroke-width="1.5"/>
+  <path d="M-80 820C260 465 500 415 820 575s525 172 930-220" stroke="url(#orbit)" stroke-width="1"/>
+  <circle cx="1278" cy="170" r="3" fill="#A99AFF" fill-opacity=".42"/>
+  <circle cx="1318" cy="202" r="2" fill="#A99AFF" fill-opacity=".3"/>
+  <circle cx="1240" cy="232" r="2" fill="#83C9FF" fill-opacity=".35"/>
+</svg>
